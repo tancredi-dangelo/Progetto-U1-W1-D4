@@ -1,0 +1,156 @@
+/* IMPOSTAZIONI GENERALI */
+
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url("../img/sfondo.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+img {
+  height: auto;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 0.5em;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+a,
+strong {
+  text-decoration: none;
+  color: rgb(178, 96, 178);
+}
+
+p,
+li,
+table {
+  font-size: 1.25em;
+  padding: 0.5em;
+}
+
+th,
+td {
+  padding: 0.5em;
+}
+
+section {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+/* HEADER */
+
+header {
+  width: 80%;
+  margin: auto;
+  height: 20%;
+  background: linear-gradient(to bottom, #17adbb, rgb(17, 95, 105));
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  font-weight: 600;
+  font-size: 1em;
+  color: white;
+}
+
+header img {
+  width: 60%;
+  height: 60%;
+  padding: 0.5em;
+  margin-top: 3em;
+}
+
+header h3 {
+  padding: 1em;
+}
+
+header ul {
+  width: 60%;
+  height: 30%;
+  margin: auto;
+  padding: 2em;
+  list-style: none;
+}
+
+/* MAIN */
+
+main {
+  box-sizing: border-box;
+  width: 80%;
+  height: 70%;
+  background: rgb(250, 250, 250);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  margin: auto;
+}
+
+main section {
+  width: 80%;
+  margin: auto;
+  padding: 1em;
+}
+
+#article-title {
+  text-align: center;
+}
+
+#article-title p {
+  color: grey;
+}
+
+.tags {
+  background-color: rgb(217, 217, 217);
+  width: auto;
+  height: auto;
+  border: 0.5px solid rgb(129, 129, 129);
+  border-radius: 3px;
+  padding: 0.5px;
+}
+
+#table-div {
+  height: auto;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+table {
+  margin: auto;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
