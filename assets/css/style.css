@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  width: 90%;
+  width: 60%;
   margin: auto;
   font-family: sans-serif;
 }
@@ -112,7 +112,7 @@ main section {
   padding: 1em;
 }
 
-/* Article title */
+/* Main article */
 
 #article-title {
   text-align: center;
@@ -128,7 +128,7 @@ main section {
   background: rgb(217, 217, 217);
   border: 0.5px solid rgb(129, 129, 129);
   border-radius: 5px;
-  padding: 0.3em;
+  padding: 0.1em;
 }
 
 /* ================= TABLE ================= */
@@ -165,9 +165,28 @@ th {
 /* ================= VIDEO ================= */
 
 iframe {
+  width: auto;
   display: block;
-  margin: auto;
+  margin: 2em auto 2em;
   border-radius: 30px;
+}
+
+/* ================= NEWS ================= */
+
+#news {
+  margin: 1em auto 1em;
+  background-color: rgb(215, 215, 215);
+  border: 1px solid grey;
+  padding: 1em;
+}
+
+/* ============= RELATED ARTICLES ============== */
+
+.related-article {
+  margin: 1em auto 1em;
+  background-color: rgb(215, 215, 215);
+  border: 1px solid grey;
+  padding: 1em;
 }
 
 /* ================= FORM ================= */
