@@ -95,6 +95,10 @@ header ul {
   list-style: none;
 }
 
+header a {
+  color: white;
+}
+
 /* ================= MAIN ================= */
 
 main {
@@ -165,7 +169,7 @@ th {
 /* ================= VIDEO ================= */
 
 iframe {
-  width: auto;
+  width: 100%;
   display: block;
   margin: 2em auto 2em;
   border-radius: 30px;
@@ -174,10 +178,31 @@ iframe {
 /* ================= NEWS ================= */
 
 #news {
-  margin: 1em auto 1em;
+  box-sizing: border-box;
+  width: 80%;
+  height: auto;
+  margin: auto auto auto;
   background-color: rgb(215, 215, 215);
   border: 1px solid grey;
-  padding: 1em;
+  padding: 2em;
+}
+
+#news h2 {
+  text-align: center;
+}
+
+#news input {
+  height: 3em;
+  width: 20em;
+}
+
+#news button {
+  height: 3em;
+  width: 9em;
+  border: 2px solid rgb(55, 55, 160);
+  background-color: #1761bb;
+  color: white;
+  margin: 10px;
 }
 
 /* ============= RELATED ARTICLES ============== */
